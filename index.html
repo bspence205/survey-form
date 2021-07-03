@@ -7,18 +7,24 @@
     <title>Survey Form</title>
 </head>
 <body>
+
+    <main class="box">
     <div class="container">
+        <h1>Crypto Currency Survey</h1>
         <div class="name">
+            <label>Name</label>
             <input type="text" name="name" id="name">
         </div>
         <div class="email">
+            <label>Email</label>
             <input type="text" name="email" id="email">
         </div>
         <div class="age">
+            <label>Age</label>
             <input type="text" name="age" id="age">
         </div>
         <div class="options">
-            <p>Is crypto part of your investment portfolio?</p>
+            <label>Is crypto part of your investment portfolio?</label>
             <select name="options" id="options">
                 <option value="Yes">Yes</option>
                 <option value="No">No</option>
@@ -26,7 +32,7 @@
             </select>
         </div>
         <div class="recommend">
-            <p>Would you recommend our service to a close friend?</p>
+            <label>Would you recommend crypto to a close friend?</label>
             <label for="">
                 <input type="radio">
                 Always
@@ -41,14 +47,13 @@
             </label>
         </div>
         <div class="favorite">
-            <p>Choose your favorite crypto</p>
-            <select name="favorite" id="favorite">
-                <option value="Yes">Yes</option>
-                <option value="No">No</option>
-                <option value="Why">Why</option>
-            </select>
-        </div>
-        <div class="altcoins">
+            <label>Choose your favorite</label>
+            <label for="">
+                <input type="checkbox">Bitcoin
+            </label>
+            <label for="">
+                <input type="checkbox">ETH
+            </label>
             <label for="">
                 <input type="checkbox">Dogecoin
             </label>
@@ -56,21 +61,32 @@
                 <input type="checkbox">Cardano
             </label>
             <label for="">
-                <input type="checkbox">Shiba
+                <input type="checkbox">Matic
             </label>
             <label for="">
                 <input type="checkbox">Amp
             </label>
             <label for="">
-                <input type="checkbox">Matic
+                <input type="checkbox">Shiba
             </label>
         </div>
         <div class="textfield">
-            <input type="text-field" placeholder="...">
+            <input type="text-field" placeholder="..." class="box">
         </div>
         <div class="submit">
             <button>Submit</button>
         </div>
+        <footer class="logos">
+            <img src="bitcoin-btc-logo (1).svg" alt="">
+            <img src="ethereum-eth-logo.svg" alt="">
+            <img src="dogecoin-doge-logo.svg" alt="">
+            <img src="cardano-ada-logo.svg" alt="">
+            <img src="polygon-matic-logo.svg" alt="">
+            <img src="amp-amp-logo.svg" alt="">
+            <img src="shiba-inu-shib-logo.svg" alt="">
+        </footer>
     </div>
+
+</main>
 </body>
 </html>
