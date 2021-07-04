@@ -8,6 +8,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  background-image: url("abstract-blockchain-background_23-2147850235.jpeg");
 }
 
 .container {
@@ -21,7 +22,8 @@ body {
 }
 
 h1 {
-  text-align: center;
+  display: flex;
+  justify-content: center;
   margin-bottom: 15px;
   color: rgb(255, 255, 255);
 }
@@ -49,6 +51,14 @@ label {
   margin-bottom: 15px;
 }
 
+input,
+label,
+select {
+  margin-left: 5%;
+  text-decoration: none;
+  outline: none;
+}
+
 .box {
   min-height: 100px;
   width: auto;
@@ -60,7 +70,7 @@ label {
 }
 
 button {
-  width: 100%;
+  width: 95%;
   height: 25px;
   margin-bottom: 20px;
   background-color: rgba(135, 206, 250, 0.205);
