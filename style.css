@@ -28,6 +28,11 @@ h1 {
   color: rgb(255, 255, 255);
 }
 
+h1:hover,
+label:hover {
+  color: orange;
+}
+
 label {
   display: flex;
   justify-content: flex-start;
@@ -74,6 +79,11 @@ button {
   height: 25px;
   margin-bottom: 20px;
   background-color: rgba(135, 206, 250, 0.205);
+  cursor: grab;
+}
+
+button:hover {
+  background-color: orange;
 }
 
 .logos {
@@ -86,3 +96,5 @@ button {
 img {
   margin-right: 15px;
 }
+
+@media 
